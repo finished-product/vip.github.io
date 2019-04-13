@@ -1,3 +1,6 @@
 node_modules
 logs
 yarn.lock
+docker/mysql
+www/uploads/*
+config.properties

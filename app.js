@@ -64,7 +64,7 @@ if (config.isDebug) {
 
 
 // 开启监听端口 server
-server.listen(80, '127.0.0.1', function () {
+server.listen(8080, '127.0.0.1', function () {
     console.log('Server is listening at port 80…………');
     process.exec('start http://127.0.0.1');
 })
